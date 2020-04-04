@@ -29,6 +29,7 @@ init_bat = batteries.index
 init_dso_down = dso_request['down'].to_dict()
 init_dso_up = dso_request['up'].to_dict()
 
+init_p_b_ch = batteries['cost_chargingg'].to_dict()
 init_p_b_ch = batteries['cost_charging'].to_dict()
 init_p_b_dis = batteries['cost_discharging'].to_dict()
 init_q_ch = batteries['max_charging'].to_dict()
